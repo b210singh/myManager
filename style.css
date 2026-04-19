@@ -1,46 +1,56 @@
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
   overflow: hidden;
 
-  background: linear-gradient(135deg, #ffd6ec, #ffeaf6, #fff);
-  color: #444;
+  background: linear-gradient(135deg, #f7f9fc, #eef2f7);
+  color: #222;
+}
+
+.container {
+  margin-top: 120px;
 }
 
 h1 {
-  font-size: 2.4rem;
-  color: #d63384;
-  animation: float 3s ease-in-out infinite;
+  font-size: 2.2rem;
+  color: #2c3e50;
 }
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
+.buttons {
+  margin-top: 30px;
 }
 
 button {
-  padding: 15px 25px;
-  font-size: 18px;
+  padding: 14px 22px;
+  font-size: 16px;
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 10px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: all 0.2s ease;
 }
 
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Yes button - calm green */
 #yes {
-  background: linear-gradient(135deg, #ff4da6, #ff99cc);
+  background-color: #2ecc71;
   color: white;
-  box-shadow: 0 4px 15px rgba(255, 77, 166, 0.3);
 }
 
+/* No button - neutral gray */
 #no {
-  background-color: #f3f3f3;
+  background-color: #bdc3c7;
+  position: relative;
+  color: #2c3e50;
 }
 
+/* Success screen */
 .success {
-  font-size: 2.5rem;
-  margin-top: 120px;
-  color: #ff4da6;
+  font-size: 2.2rem;
+  margin-top: 150px;
+  color: #2c3e50;
 }
