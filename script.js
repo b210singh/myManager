@@ -32,6 +32,8 @@ yesBtn.addEventListener("click", () => {
     <div class="success">
       Knew it 😎👏 <br>
       You are the BEST.
+      <br><br>
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTg1N2lxdTljZmZiOTlsbHowY3JjaXQ1OWRrN3hvb2xpbzZ5NXRpOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8hVGGjOjV82Rh6Oyi/giphy.gif" width="250"/>
     </div>
   `;
 });
