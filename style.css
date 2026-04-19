@@ -1,45 +1,46 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
-  background: linear-gradient(to top, #e3f2fd, #ffffff);
   overflow: hidden;
-}
 
-.container {
-  margin-top: 120px;
+  background: linear-gradient(135deg, #ffd6ec, #ffeaf6, #fff);
+  color: #444;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
+  color: #d63384;
+  animation: float 3s ease-in-out infinite;
 }
 
-.buttons {
-  margin-top: 30px;
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
 }
 
 button {
   padding: 15px 25px;
   font-size: 18px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   margin: 10px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.3s ease;
 }
 
 #yes {
-  background-color: #4caf50;
+  background: linear-gradient(135deg, #ff4da6, #ff99cc);
   color: white;
+  box-shadow: 0 4px 15px rgba(255, 77, 166, 0.3);
 }
 
 #no {
-  background-color: #ccc;
-  position: relative;
+  background-color: #f3f3f3;
 }
 
 .success {
   font-size: 2.5rem;
-  margin-top: 150px;
-  color: #4caf50;
+  margin-top: 120px;
+  color: #ff4da6;
 }
