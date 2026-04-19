@@ -31,7 +31,7 @@ yesBtn.addEventListener("click", () => {
   document.body.innerHTML = `
     <div class="success">
       Knew it 😎👏 <br>
-      10/10 management confirmed.
+      You are the BEST.
     </div>
   `;
 });
